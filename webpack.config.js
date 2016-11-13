@@ -36,7 +36,8 @@ module.exports = {
                 exclude:[/node_modules/,/public/],
                 query:
                 {
-                    presets:['react']
+                    presets:['react'],
+                    plugins:["react-hot-loader/babel"]
                 }
             },
             {

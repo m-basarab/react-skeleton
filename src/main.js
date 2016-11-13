@@ -3,6 +3,9 @@
  */
 var ReactDOM = require('react-dom');
 var React = require('react');
-var Hello = require('./componets/Hello.jsx');
 
-ReactDOM.render(<Hello/>,document.querySelector('#react-app'));
+var Routes = require('./Routes.jsx');
+
+ReactDOM.render(Routes,document.querySelector('#react-app'));
+
+module.hot.accept();
